@@ -183,8 +183,10 @@
     <Compile Include="Assets\Edit_NGUI\Scripts\UI\UITooltip.cs" />
     <Compile Include="Assets\Edit_NGUI\Scripts\UI\UIViewport.cs" />
     <Compile Include="Assets\Scripts\AddBlood.cs" />
+    <Compile Include="Assets\Scripts\BtnClick.cs" />
     <Compile Include="Assets\Scripts\CutBlood.cs" />
     <Compile Include="Assets\Scripts\LoadSceneTest.cs" />
+    <Compile Include="Assets\Scripts\MyMouse.cs" />
     <Compile Include="Assets\Scripts\SkillCDTimeSprite.cs" />
     <None Include="Assets\Edit_NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
     <None Include="Assets\Edit_NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
