@@ -188,6 +188,8 @@
     <Compile Include="Assets\Scripts\LoadSceneTest.cs" />
     <Compile Include="Assets\Scripts\MyMouse.cs" />
     <Compile Include="Assets\Scripts\SkillCDTimeSprite.cs" />
+    <Compile Include="Assets\Scripts\ToPanel1Btn.cs" />
+    <Compile Include="Assets\Scripts\ToPanel2Btn.cs" />
     <None Include="Assets\Edit_NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
     <None Include="Assets\Edit_NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
     <None Include="Assets\Edit_NGUI\Examples\Atlases\Refractive\Refractive Font - Normal.txt" />
