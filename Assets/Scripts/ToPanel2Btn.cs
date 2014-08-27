@@ -44,17 +44,30 @@ public class ToPanel2Btn : MonoBehaviour
         _panel2.SetActiveRecursively(true);
         _panel2.transform.GetComponent<UIPanel>().alpha = 0;
 
-        InvokeRepeating("FadePanelTwo", 0.25f, 0.5f);
+        InvokeRepeating("FadePanelTwo", 0.01f, 0.1f);
         Debug.Log("Panel1 跳转到 Panel2");
     }
 
     void FadePanelOne()
     {
-        _panel1.transform.GetComponent<UIPanel>().alpha += 0.5f;
+        if (_panel1.transform.GetComponent<UIPanel>().alpha == 1)
+        {
+            CancelInvoke();
+        }
+
+        _panel1.transform.GetComponent<UIPanel>().alpha += 0.2f;
+
+        
     }
 
     void FadePanelTwo()
     {
-        _panel2.transform.GetComponent<UIPanel>().alpha += 0.5f;
+
+        if (_panel2.transform.GetComponent<UIPanel>().alpha == 1)
+        {
+            CancelInvoke();
+        }
+
+        _panel2.transform.GetComponent<UIPanel>().alpha += 0.2f;
     }
 }
