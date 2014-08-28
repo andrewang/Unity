@@ -9,3 +9,4 @@ scene6 使用SetActiveRecursively使场景失效<br>
 scene7 修改Panel的alpha值在显示和隐藏Panel时实现淡入淡出效果<br>
 scene8 小地图制作插件NJG MiniMap的使用示例<br>
 scene9 NJG MiniMap小地图自定义图标以及迷雾效果<br>
+scene10 NGUI根据高度适应屏幕分辨率<br>
