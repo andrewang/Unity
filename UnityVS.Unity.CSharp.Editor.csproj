@@ -161,6 +161,9 @@
     <Compile Include="Assets\NinjutsuGames\NJG MiniMap\Common\Scripts\Editor\TextureSelector.cs" />
     <Compile Include="Assets\NinjutsuGames\NJG MiniMap\Common\Scripts\Editor\UIMiniMapInspectorBase.cs" />
     <Compile Include="Assets\NinjutsuGames\NJG MiniMap\Common\Scripts\Editor\UIWorldMapInspectorBase.cs" />
+    <Compile Include="Assets\NinjutsuGames\NJG MiniMap\Mesh Version\Scripts\Editor\NJGMapOnGUIInspector.cs" />
+    <Compile Include="Assets\NinjutsuGames\NJG MiniMap\Mesh Version\Scripts\Editor\UIMiniMapOnGUIInspector.cs" />
+    <Compile Include="Assets\NinjutsuGames\NJG MiniMap\Mesh Version\Scripts\Editor\UIWorldMapOnGUIInspector.cs" />
     <Compile Include="Assets\NinjutsuGames\NJG MiniMap\NGUI Version\Scripts\Editor\NJGMapInspector.cs" />
     <Compile Include="Assets\NinjutsuGames\NJG MiniMap\NGUI Version\Scripts\Editor\UIMiniMapInspector.cs" />
     <Compile Include="Assets\NinjutsuGames\NJG MiniMap\NGUI Version\Scripts\Editor\UIWorldMapInspector.cs" />

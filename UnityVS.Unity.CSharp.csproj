@@ -208,6 +208,15 @@
     <Compile Include="Assets\NinjutsuGames\NJG MiniMap\ExamplesAssets\Scripts\UIMapColorChanger.cs" />
     <Compile Include="Assets\NinjutsuGames\NJG MiniMap\ExamplesAssets\Scripts\UIMapControlFOW.cs" />
     <Compile Include="Assets\NinjutsuGames\NJG MiniMap\LeanTween\Plugins\LeanTween.cs" />
+    <Compile Include="Assets\NinjutsuGames\NJG MiniMap\Mesh Version\Scripts\Core\GUIAnchor.cs" />
+    <Compile Include="Assets\NinjutsuGames\NJG MiniMap\Mesh Version\Scripts\Core\GUIRoot.cs" />
+    <Compile Include="Assets\NinjutsuGames\NJG MiniMap\Mesh Version\Scripts\Core\MapCamera.cs" />
+    <Compile Include="Assets\NinjutsuGames\NJG MiniMap\Mesh Version\Scripts\Core\NJGMapOnGUI.cs" />
+    <Compile Include="Assets\NinjutsuGames\NJG MiniMap\Mesh Version\Scripts\Internal\UIMapArrowOnGUI.cs" />
+    <Compile Include="Assets\NinjutsuGames\NJG MiniMap\Mesh Version\Scripts\Internal\UIMapIconOnGUI.cs" />
+    <Compile Include="Assets\NinjutsuGames\NJG MiniMap\Mesh Version\Scripts\UI\MiniMapGUI.cs" />
+    <Compile Include="Assets\NinjutsuGames\NJG MiniMap\Mesh Version\Scripts\UI\UIMiniMapOnGUI.cs" />
+    <Compile Include="Assets\NinjutsuGames\NJG MiniMap\Mesh Version\Scripts\UI\UIWorldMapOnGUI.cs" />
     <Compile Include="Assets\NinjutsuGames\NJG MiniMap\NGUI Version\Scripts\Core\NJGMap.cs" />
     <Compile Include="Assets\NinjutsuGames\NJG MiniMap\NGUI Version\Scripts\Core\UIScale.cs" />
     <Compile Include="Assets\NinjutsuGames\NJG MiniMap\NGUI Version\Scripts\Interaction\UIButtonCloseMap.cs" />
@@ -230,8 +239,11 @@
     <Compile Include="Assets\NinjutsuGames\NJG MiniMap\NGUI Version\Scripts\UI\UIWorldMap.cs" />
     <Compile Include="Assets\Scripts\AddBlood.cs" />
     <Compile Include="Assets\Scripts\BtnClick.cs" />
+    <Compile Include="Assets\Scripts\CeeatePanelByPrefab.cs" />
     <Compile Include="Assets\Scripts\CloseFadePanel.cs" />
     <Compile Include="Assets\Scripts\CutBlood.cs" />
+    <Compile Include="Assets\Scripts\DeletePanelPrefab.cs" />
+    <Compile Include="Assets\Scripts\DeletePanelPrefabBtn.cs" />
     <Compile Include="Assets\Scripts\LoadSceneTest.cs" />
     <Compile Include="Assets\Scripts\MyMouse.cs" />
     <Compile Include="Assets\Scripts\OpenFadePanel.cs" />
