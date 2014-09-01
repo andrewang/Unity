@@ -12,3 +12,4 @@ scene9 NJG MiniMap小地图自定义图标以及迷雾效果<br>
 scene10 载入Panel的预设，并且实现淡入淡出效果<br>
 scene11 NGUI中显示顺序和depth和Z轴关系的验证<br>
 sceen12 游戏物体间脚本的访问<br>
+scene13 NGUI实现Tabview<br>
