@@ -25,6 +25,7 @@ public class ToPanel2Btn : MonoBehaviour
         else if (_panel2 == null)
             Debug.Log("Panel2 获取失败！");
 
+        // 初始化时Panel1设为有效，Panel2无效
         _panel1.SetActiveRecursively(true);
         _panel2.SetActiveRecursively(false);
 
@@ -32,15 +33,9 @@ public class ToPanel2Btn : MonoBehaviour
         InvokeRepeating("FadePanelOne", 0.25f, 0.5f);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-    }
-
     void OnClick()
     {
         _panel1.SetActiveRecursively(false);
-
         _panel2.SetActiveRecursively(true);
         _panel2.transform.GetComponent<UIPanel>().alpha = 0;
 
@@ -50,24 +45,15 @@ public class ToPanel2Btn : MonoBehaviour
 
     void FadePanelOne()
     {
-        if (_panel1.transform.GetComponent<UIPanel>().alpha == 1)
-        {
-            CancelInvoke();
-        }
-
         _panel1.transform.GetComponent<UIPanel>().alpha += 0.2f;
-
-        
+        if (_panel1.transform.GetComponent<UIPanel>().alpha >= 1)
+            CancelInvoke();
     }
 
     void FadePanelTwo()
     {
-
-        if (_panel2.transform.GetComponent<UIPanel>().alpha == 1)
-        {
-            CancelInvoke();
-        }
-
         _panel2.transform.GetComponent<UIPanel>().alpha += 0.2f;
+        if (_panel2.transform.GetComponent<UIPanel>().alpha >= 1)
+            CancelInvoke();
     }
 }

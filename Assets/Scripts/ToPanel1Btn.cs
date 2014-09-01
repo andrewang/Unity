@@ -13,10 +13,11 @@ public class ToPanel1Btn : MonoBehaviour
 {
     private GameObject _panel1 = null;
     private GameObject _panel2 = null;
-       
+
     // Use this for initialization
     void Start()
     {
+        // panel初始化
         _panel1 = GameObject.Find("Panel1");
         _panel2 = GameObject.Find("Panel2");
 
@@ -26,42 +27,30 @@ public class ToPanel1Btn : MonoBehaviour
             Debug.Log("Panel2 获取失败！");
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-    }
-
     void OnClick()
     {
-        //_panel2.SetActiveRecursively(false);
-        _panel2.transform.GetComponent<UIPanel>().alpha = 0;
+        //_panel2.transform.GetComponent<UIPanel>().alpha = 0;
+        _panel2.SetActiveRecursively(false);
         _panel1.SetActiveRecursively(true);
         Debug.Log("Panel2 跳转到 Panel1");
 
         _panel1.transform.GetComponent<UIPanel>().alpha = 0;
+        // 使用InvokeRepeating函数实现淡入效果
         InvokeRepeating("FadePanelOne", 0.01f, 0.1f);
     }
 
     void FadePanelOne()
     {
-        if (_panel1.transform.GetComponent<UIPanel>().alpha == 1)
-        {
-            CancelInvoke();
-        }
-
         _panel1.transform.GetComponent<UIPanel>().alpha += 0.2f;
-
-        
+        // 当alpha>=1，停止脚本上的协同
+        if (_panel1.transform.GetComponent<UIPanel>().alpha >= 1)
+            CancelInvoke();
     }
 
     void FadePanelTwo()
     {
-        if (_panel2.transform.GetComponent<UIPanel>().alpha == 1)
-        {
-            CancelInvoke();
-        }
-
         _panel2.transform.GetComponent<UIPanel>().alpha += 0.2f;
-
+        if (_panel2.transform.GetComponent<UIPanel>().alpha >= 1)
+            CancelInvoke();
     }
 }
