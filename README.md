@@ -15,3 +15,4 @@ sceen12 游戏物体间脚本的访问(Todo)<br>
 scene13 NGUI实现Tabview<br>
 scene14 通过Animation实现控件位置的转换<br>
 scene15 通过Animation实现控件的缩放<br>
+scene16 Animation实现点击按钮弹出动画<br>
