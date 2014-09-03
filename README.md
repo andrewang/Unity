@@ -14,3 +14,4 @@ scene11 NGUI中显示顺序和depth和Z轴关系的验证(Todo)<br>
 sceen12 游戏物体间脚本的访问(Todo)<br>
 scene13 NGUI实现Tabview<br>
 scene14 通过Animation实现控件位置的转换<br>
+scene15 通过Animation实现控件的缩放<br>
