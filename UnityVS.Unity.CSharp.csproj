@@ -238,6 +238,7 @@
     <Compile Include="Assets\NinjutsuGames\NJG MiniMap\NGUI Version\Scripts\UI\UIMiniMap.cs" />
     <Compile Include="Assets\NinjutsuGames\NJG MiniMap\NGUI Version\Scripts\UI\UIWorldMap.cs" />
     <Compile Include="Assets\Scripts\AddBlood.cs" />
+    <Compile Include="Assets\Scripts\AnimationTimeTest.cs" />
     <Compile Include="Assets\Scripts\BtnClick.cs" />
     <Compile Include="Assets\Scripts\CeeatePanelByPrefab.cs" />
     <Compile Include="Assets\Scripts\CloseFadePanel.cs" />
