@@ -244,9 +244,11 @@
     <Compile Include="Assets\Scripts\CloseFadePanel.cs" />
     <Compile Include="Assets\Scripts\CutBlood.cs" />
     <Compile Include="Assets\Scripts\DeletePanelPrefab.cs" />
+    <Compile Include="Assets\Scripts\GetThreeNumValue.cs" />
     <Compile Include="Assets\Scripts\LoadSceneTest.cs" />
     <Compile Include="Assets\Scripts\MyMouse.cs" />
     <Compile Include="Assets\Scripts\PanelFade.cs" />
+    <Compile Include="Assets\Scripts\SendMessageThreeNum.cs" />
     <Compile Include="Assets\Scripts\SkillCDTimeSprite.cs" />
     <Compile Include="Assets\Scripts\ToPanel1Btn.cs" />
     <Compile Include="Assets\Scripts\ToPanel2Btn.cs" />

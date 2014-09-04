@@ -17,4 +17,6 @@ scene14 通过Animation实现控件位置的转换<br>
 scene15 通过Animation实现控件的缩放<br>
 scene16 Animation实现点击按钮弹出动画<br>
 scene17 Animaion动画时间测试<br>
-scene18 NGUI实现Scroll View(Todo)<br>
+scene18 拖动相应脚本实现Scroll View<br>
+scene19 NGUI控件scroll view实现<br>
+scene20 测试使用SendMessage方式调用函数时能否传递多个函数<br>
