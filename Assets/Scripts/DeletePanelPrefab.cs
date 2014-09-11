@@ -14,7 +14,7 @@ public class DeletePanelPrefab : MonoBehaviour
     void OnClick()
     {
         // 找到该按钮要关闭的Panel对象中的PanelFade脚本
-        PanelFade _panelfade_script = GameObject.Find("UI Root/PanelPrefab(Clone)").GetComponent<PanelFade>();
+        PanelFade _panelfade_script = gameObject.GetComponentInParent<PanelFade>();
         // 把脚本中对应关闭状态的_closing设为true
         _panelfade_script._closing = true;
     }
